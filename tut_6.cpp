@@ -8,7 +8,7 @@ int main(){
       cin>>a;
       cout<<"Enter the a variables data : "<<endl;
       cin>>b;
-      c = a+b;
+      c = a+b; //Local variable;
       cout<<"Enter the a variables data : "<<c<<endl;
 
       cout<<"Global variables : "<<::c<<endl; // printing global variables;
