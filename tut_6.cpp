@@ -13,6 +13,7 @@ int main(){
 
       cout<<"Global variables : "<<::c<<endl; // printing global variables;
    // Typecasting;
+   
    float x = 60.99;
    cout<<"the float value of int is : "<<(int)x<<endl;
    return 0;
