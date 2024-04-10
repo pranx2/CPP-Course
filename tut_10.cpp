@@ -12,7 +12,7 @@ int main(){
    //    cout<<i<<endl;
    //    i++;
    // }
-
+// 
    // Do while loops ;
    cout<<"Do while loops;"<<endl;
    int i = 1;
