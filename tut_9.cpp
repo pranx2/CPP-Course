@@ -19,3 +19,4 @@ int age;
    }
 return 0;
 }
+// switch case ;
