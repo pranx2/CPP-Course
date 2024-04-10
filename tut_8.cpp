@@ -16,3 +16,4 @@ int main(){
       else cout<<"You are welcome to the party!"<<endl;
 return 0;
 }
+// If else
