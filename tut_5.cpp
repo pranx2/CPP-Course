@@ -37,3 +37,4 @@ int main(){
       cout<<"a = 9 , b = 10. !(a=!b) : "<<(!(a=!b))<<endl;   
    return 0;
 }
+// Math matic terms
