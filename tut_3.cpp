@@ -11,3 +11,4 @@ int main(){
    sol();
    cout<<"a= "<<a <<"\nb= "<< b;
 }
+// Function;
