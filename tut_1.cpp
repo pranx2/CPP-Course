@@ -5,6 +5,7 @@ int main(){
 return 0;// This line indicates that the program executed successfully and returns 0 to the operating system
 
 }
+//Basic of C++
 //  Using iostream for programming.... 
 // it means it has input/output.
 // int means the main will give integers value...
