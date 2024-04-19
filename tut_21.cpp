@@ -1,29 +1,39 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
-class Budget{
+class Info{
       private :
-         int Shirt, Pant, Shoes;
-      public :
-         int totalPayment;
+         string Name, Varsity, Nationality, Address;
+         string BirthDate;
 
-      void setinfo(int shirt, int pant, int shoes);
+      public :
+         string salary;
+         string joiningDate;
+
+      void setinfo(string  name, string  varsity, string  nationality, string  address,string  birthDate);
       void getinfo(){
-            cout<<"Shirt price is: "           <<Shirt<<endl;
-            cout<<"Pant price is: "            <<Pant<<endl;
-            cout<<"Shoes price is: "           <<Shoes<<endl;
-            cout<<"Your remaining payment is: "<<totalPayment<<endl;
+            cout<<"Employee Name: "          <<Name<<endl;
+            cout<<"Employee varsity: "       <<Varsity<<endl;
+            cout<<"Employee Nationality: "   <<Nationality<<endl;
+            cout<<"Employee Address: "       <<Address<<endl;
+            cout<<"Employee BirthDate: "     <<BirthDate<<endl;
+            cout<<"Employee Joining Date: "  <<joiningDate<<endl;
+            cout<<"Employee Salary: "        <<salary<<endl;
       }
 };
-   void Budget :: setinfo(int shirt, int pant, int shoes){
-      Shirt = shirt;
-      Pant  = pant;
-      Shoes = shoes; 
+   void Info :: setinfo(string  name, string  varsity, string  nationality, string  address, string birthDate){
+         Name        = name;
+         Varsity       = varsity;
+         Nationality  = nationality;
+         Address       = address;
+         BirthDate     = birthDate;
    }
 int main(){
-   Budget pranto;
-      pranto.setinfo(500,700,1600);
-      pranto.totalPayment = 2800;
-      pranto.getinfo();
+   Info pranto;
+   pranto.joiningDate= "01 january 2024";
+   pranto.salary= "12000 BDT";
+   pranto.setinfo("PRANTO", "Uttara University", "Bangladesh", "Mirpur-14", "16 December 2003");
+   pranto.getinfo();
 return 0;
 }
