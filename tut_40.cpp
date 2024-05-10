@@ -19,7 +19,7 @@ class  num_x2{
       }
 };
 // Multi  base classes in one derive classes;
-class derive : public num_x1 , public num_x2{
+class derive : public num_x1  , public num_x2{
    public :
       void show(void){
          cout<<"The first number is : "<<num1<<endl;
@@ -30,7 +30,7 @@ class derive : public num_x1 , public num_x2{
 int main(){
    derive xy;
    xy.get_number1(50);
-   xy.get_number2(50);
+   xy.get_number2(50); 
    xy.show();
 return 0;
 }
