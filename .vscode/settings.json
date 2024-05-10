@@ -1,6 +1,15 @@
 {
    "files.associations": {
       "iostream": "cpp",
-      "ostream": "cpp"
-   }
+      "ostream": "cpp",
+      "random": "cpp",
+      "cmath": "cpp",
+      "complex": "cpp",
+      "iomanip": "cpp"
+   },
+   "cSpell.words": [
+      "countd",
+      "countm",
+      "Eixo"
+   ]
 }
