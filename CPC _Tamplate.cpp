@@ -1,3 +1,9 @@
+/**
+ * This program template provides utility functions for debugging and common macros for competitive programming.
+ * It includes functions for printing pairs and containers, as well as debugging output.
+ * Additionally, it defines constants for maximum array size, modulo value, infinity, and epsilon.
+ * The main function sets up input/output optimizations and runs the solve function for each test case.
+ */
 #include <bits/stdc++.h>
 
 using namespace std;
