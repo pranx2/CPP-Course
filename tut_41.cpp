@@ -1,3 +1,16 @@
+/**
+ ** A simple calculator program that performs basic arithmetic operations.
+ *
+ *! The calculator class contains methods to set values for x and y.
+ ** The display class inherits from the calculator class and contains methods to perform
+ ** addition, subtraction, multiplication, and division operations on x and y.
+ *
+ *TODO: The main function prompts the user to select an operation and input values for x and y.
+ ** Based on the selected operation, it calls the corresponding method from the display class
+ ** to perform the operation and display the result.
+ *
+ * @return 0 upon successful completion.
+ */
 #include<iostream>
 using namespace std;
 class calculator{
