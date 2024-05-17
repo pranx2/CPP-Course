@@ -31,17 +31,22 @@ int main() {
      *
      * @returns None
      */
+
      shopItem *ptr = new shopItem [size];
     shopItem *ptrtemp = ptr; 
 for (i = 0; i < size; i++){
     cout<<"Enter the ID and the Price: "<<i+1<<endl;
     cin>>p>>q;
-    ptr->setData(p,q);
+    //? (*ptr).setData(p,q); 
+    //!another way;
+    *ptr->setData(p,q);
     ptr++;
 }
 for(i = 0 ; i< size; i++) {
     cout << "Item number : "<< i+1 <<endl;
-    ptrtemp->GetData();
+    //? (*ptrtemp).GetData(); 
+    //!Another way;
+    *ptrtemp->GetData();
     ptrtemp++;
 }
 return 0;
