@@ -24,3 +24,5 @@ class MainBranch{
 };
 
 
+//      Abstract Function must have a pure virtual function.
+    //  it don't work by itself but it can derive through others class objects;
